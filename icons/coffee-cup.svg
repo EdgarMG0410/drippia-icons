@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- mug body -->
+  <path d="M6 7h12l-1.5 13H7.5L6 7z"/>
+  <!-- handle -->
+  <path d="M18 9h1a2 2 0 0 1 0 4h-1"/>
+  <!-- saucer -->
+  <line x1="4" y1="20" x2="20" y2="20"/>
+  <!-- steam wisps -->
+  <path d="M9 4c0-1 1-1 1-2"/>
+  <path d="M12 4c0-1 1-1 1-2"/>
+  <path d="M15 4c0-1 1-1 1-2"/>
+</svg>

@@ -19,34 +19,111 @@ const iconsData = [
     name: 'aeropress',
     displayName: 'Aeropress',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<rect x="6" y="4" width="12" height="16" rx="1"/>
-<line x1="6" y1="8" x2="18" y2="8"/>
-<line x1="6" y1="12" x2="18" y2="12"/>
-<path d="M8 20v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2"/>
+<rect x="8" y="3" width="8" height="14" rx="1"/>
+<line x1="12" y1="3" x2="12" y2="1"/>
+<line x1="9" y1="1" x2="15" y2="1"/>
+<rect x="9" y="8" width="6" height="2" rx="0.5"/>
+<rect x="9" y="17" width="6" height="2" rx="1"/>
+<line x1="12" y1="19" x2="12" y2="21"/>
+<path d="M9 21h6"/>
 </svg>`
   },
   {
     name: 'ai-brew',
     displayName: 'AI Brew',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M12 2l2 4 4 1-3 3 1 4-4-2-4 2 1-4-3-3 4-1z"/>
-<path d="M8 16h8v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/>
+<path d="M14 3C19 9 21 13 21 17C21 21 18 25 14 25C10 25 7 21 7 17C7 13 9 9 14 3Z"/>
+<path d="M11 17L12.5 14L14 17L15.5 14L17 17"/>
 </svg>`
   },
   {
     name: 'bean',
     displayName: 'Bean',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M12 4c-4 0-7 3-7 7s3 7 7 7 7-3 7-7-3-7-7-7z"/>
-<path d="M12 8c-2 0-3 1-3 3"/>
+<ellipse cx="12" cy="12" rx="6" ry="8.5" transform="rotate(-20 12 12)"/>
+<path d="M8.5 7Q12 12 15.5 17" transform="rotate(-20 12 12)"/>
+</svg>`
+  },
+  {
+    name: 'bloom',
+    displayName: 'Bloom',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="14" r="3"/>
+<path d="M10 11c-1-2-1-4 0-5"/>
+<path d="M12 10c0-2 0-4 0-6"/>
+<path d="M14 11c1-2 1-4 0-5"/>
+<line x1="8" y1="2" x2="8" y2="5"/>
+<line x1="16" y1="2" x2="16" y2="5"/>
+<line x1="12" y1="1" x2="12" y2="3"/>
 </svg>`
   },
   {
     name: 'chemex',
     displayName: 'Chemex',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M8 4h8l-2 8-2 8h-2l-2-8z"/>
-<line x1="7" y1="12" x2="17" y2="12"/>
+<path d="M7 2h10"/>
+<path d="M8 2l2 6h4l2-6"/>
+<line x1="8" y1="10" x2="16" y2="10"/>
+<path d="M10 10l-3 9a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l-3-9"/>
+</svg>`
+  },
+  {
+    name: 'coffee-bag',
+    displayName: 'Coffee Bag',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 8h10v12a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8z"/>
+<polyline points="7 8 9 4 15 4 17 8"/>
+<circle cx="12" cy="14" r="2"/>
+<line x1="12" y1="12" x2="12" y2="16"/>
+<line x1="10" y1="14" x2="14" y2="14"/>
+<line x1="9" y1="11" x2="15" y2="11"/>
+</svg>`
+  },
+  {
+    name: 'coffee-bean',
+    displayName: 'Coffee Bean',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="12" cy="12" rx="5" ry="8" transform="rotate(-30 12 12)"/>
+<path d="M9.5 6.5c1 2 1 5 0 7" transform="rotate(-30 12 12)"/>
+</svg>`
+  },
+  {
+    name: 'coffee-cup',
+    displayName: 'Coffee Cup',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 7h12l-1.5 13H7.5L6 7z"/>
+<path d="M18 9h1a2 2 0 0 1 0 4h-1"/>
+<line x1="4" y1="20" x2="20" y2="20"/>
+<path d="M9 4c0-1 1-1 1-2"/>
+<path d="M12 4c0-1 1-1 1-2"/>
+<path d="M15 4c0-1 1-1 1-2"/>
+</svg>`
+  },
+  {
+    name: 'cold-brew',
+    displayName: 'Cold Brew',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="6" width="10" height="15" rx="1"/>
+<path d="M9 6V4h6v2"/>
+<rect x="8" y="3" width="8" height="2" rx="0.5"/>
+<line x1="8" y1="14" x2="16" y2="14"/>
+<line x1="12" y1="17" x2="12" y2="21"/>
+<line x1="10" y1="18" x2="14" y2="20"/>
+<line x1="14" y1="18" x2="10" y2="20"/>
+</svg>`
+  },
+  {
+    name: 'espresso',
+    displayName: 'Espresso',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="5" width="18" height="13" rx="2"/>
+<rect x="9" y="11" width="6" height="3" rx="1"/>
+<path d="M11 14v3"/>
+<path d="M13 14v3"/>
+<circle cx="6" cy="9" r="1.5"/>
+<path d="M18 10v-3a1 1 0 0 1 2 0v4"/>
+<line x1="3" y1="18" x2="21" y2="18"/>
+<circle cx="17" cy="9" r="1"/>
 </svg>`
   },
   {
@@ -84,6 +161,19 @@ const iconsData = [
 </svg>`
   },
   {
+    name: 'grinder-manual',
+    displayName: 'Grinder Manual',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="8" width="10" height="10" rx="1"/>
+<path d="M7 8V4h10v4"/>
+<circle cx="12" cy="13" r="2"/>
+<line x1="10" y1="13" x2="14" y2="13"/>
+<line x1="12" y1="11" x2="12" y2="15"/>
+<path d="M12 4V2"/>
+<circle cx="12" cy="2" r="1"/>
+</svg>`
+  },
+  {
     name: 'history',
     displayName: 'History',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -101,11 +191,30 @@ const iconsData = [
 </svg>`
   },
   {
+    name: 'kalita',
+    displayName: 'Kalita',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 3h12l-2 11H8L6 3z"/>
+<line x1="8" y1="14" x2="16" y2="14"/>
+<circle cx="10" cy="14" r="0.5"/>
+<circle cx="12" cy="14" r="0.5"/>
+<circle cx="14" cy="14" r="0.5"/>
+<line x1="10" y1="14" x2="10" y2="17"/>
+<line x1="12" y1="14" x2="12" y2="17"/>
+<line x1="14" y1="14" x2="14" y2="17"/>
+<path d="M7 17h10v2a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-2z"/>
+</svg>`
+  },
+  {
     name: 'kettle',
     displayName: 'Kettle',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M6 9h8a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-4a4 4 0 0 1 4-4z"/>
-<path d="M6 9V6a2 2 0 0 1 2-2h4"/>
+<path d="M5 10a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v5a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-5z"/>
+<path d="M5 12c-1.5 0-2.5-1-2.5-2.5S3.5 7 5 7h1"/>
+<path d="M3 9.5C3 7 4 5 6 4c1.5-1 3-1 3-1"/>
+<line x1="8" y1="6" x2="16" y2="6"/>
+<circle cx="12" cy="5" r="1"/>
+<path d="M19 11c1.5 0 2.5 1 2.5 2.5S20.5 16 19 16"/>
 </svg>`
   },
   {
@@ -157,6 +266,19 @@ const iconsData = [
 <circle cx="12" cy="12" r="10"/>
 <path d="M12 2v20M2 12h20"/>
 <path d="M6 6c2 2 4 2 6 0s4-2 6 0"/>
+</svg>`
+  },
+  {
+    name: 'prensa-francesa',
+    displayName: 'Prensa Francesa',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="5" width="10" height="15" rx="1"/>
+<line x1="12" y1="5" x2="12" y2="2"/>
+<line x1="9" y1="2" x2="15" y2="2"/>
+<line x1="8" y1="13" x2="16" y2="13"/>
+<rect x="7" y="4" width="10" height="2" rx="0.5"/>
+<path d="M17 8c1 0 2 0.5 2 1.5"/>
+<path d="M7 11c-1.5 0-2.5 1-2.5 2.5"/>
 </svg>`
   },
   {
@@ -216,8 +338,8 @@ const iconsData = [
     name: 'settings',
     displayName: 'Settings',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="12" cy="12" r="3"/>
-<path d="M12 1v2m0 18v2M1 12h2m18 0h2m-3.5-7.5l-1.5 1.5m-9 9l-1.5 1.5m12 0l-1.5-1.5m-9-9L4.5 4.5"/>
+<circle cx="14" cy="14" r="3"/>
+<path d="M14 4v3M14 21v3M4 14h3M21 14h3M6.5 6.5l2 2M19.5 19.5l2 2M6.5 21.5l2-2M19.5 8.5l2-2"/>
 </svg>`
   },
   {
@@ -249,6 +371,15 @@ const iconsData = [
 </svg>`
   },
   {
+    name: 'temperature',
+    displayName: 'Temperature',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+<line x1="11" y1="8" x2="13" y2="8"/>
+<line x1="11" y1="11" x2="13" y2="11"/>
+</svg>`
+  },
+  {
     name: 'thermometer',
     displayName: 'Thermometer',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -272,6 +403,13 @@ const iconsData = [
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M6 6h12l-4 14H10z"/>
 <line x1="6" y1="6" x2="18" y2="6"/>
+</svg>`
+  },
+  {
+    name: 'water-drop',
+    displayName: 'Water Drop',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
 </svg>`
   }
 ];
