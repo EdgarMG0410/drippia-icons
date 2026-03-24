@@ -1,0 +1,33 @@
+{
+  "name": "digibite-icons",
+  "version": "0.1.0",
+  "description": "Beautiful & consistent icon toolkit for coffee and beverage applications",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:react": "node scripts/buildReact.js",
+    "build:flutter": "node scripts/buildFlutter.js",
+    "clean": "node scripts/clean.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/digibite-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "flutter",
+    "coffee",
+    "digibite"
+  ],
+  "author": "Digibite",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
