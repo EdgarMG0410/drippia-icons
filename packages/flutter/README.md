@@ -1,4 +1,4 @@
-# digibite_icons
+# drippia_icons
 
 Beautiful & consistent icon toolkit for coffee and beverage applications.
 
@@ -8,7 +8,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  digibite_icons: ^0.1.0
+  drippia_icons: ^0.1.0
   flutter_svg: ^2.0.0
 ```
 
@@ -23,7 +23,7 @@ flutter pub get
 ```dart
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:digibite_icons/digibite_icons.dart';
+import 'package:drippia_icons/drippia_icons.dart';
 
 class MyWidget extends StatelessWidget {
   @override
@@ -32,21 +32,21 @@ class MyWidget extends StatelessWidget {
       children: [
         // Default size (24x24)
         SvgPicture.asset(
-          DigibiteIcons.coffee,
+          drippiaIcons.coffee,
           width: 24,
           height: 24,
         ),
         
         // Custom size
         SvgPicture.asset(
-          DigibiteIcons.grinder,
+          drippiaIcons.grinder,
           width: 32,
           height: 32,
         ),
         
         // With color
         SvgPicture.asset(
-          DigibiteIcons.pour_over,
+          drippiaIcons.pour_over,
           width: 48,
           height: 48,
           colorFilter: ColorFilter.mode(
@@ -57,7 +57,7 @@ class MyWidget extends StatelessWidget {
         
         // Using theme color
         SvgPicture.asset(
-          DigibiteIcons.v60,
+          drippiaIcons.v60,
           width: 24,
           height: 24,
           colorFilter: ColorFilter.mode(
@@ -73,13 +73,13 @@ class MyWidget extends StatelessWidget {
 
 ## Available Icons
 
-All icons are accessible through the `DigibiteIcons` class as static constants:
+All icons are accessible through the `drippiaIcons` class as static constants:
 
 ```dart
-DigibiteIcons.coffee
-DigibiteIcons.grinder
-DigibiteIcons.pour_over
-DigibiteIcons.french_press
+drippiaIcons.coffee
+drippiaIcons.grinder
+drippiaIcons.pour_over
+drippiaIcons.french_press
 // ... and more
 ```
 

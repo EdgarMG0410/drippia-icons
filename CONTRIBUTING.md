@@ -1,4 +1,4 @@
-# Contributing to Digibite Icons
+# Contributing to drippia Icons
 
 Thank you for your interest in contributing! 🎉
 
@@ -107,4 +107,4 @@ Open an issue or discussion on GitHub.
 
 ---
 
-Thank you for helping make Digibite Icons better! ☕
+Thank you for helping make drippia Icons better! ☕

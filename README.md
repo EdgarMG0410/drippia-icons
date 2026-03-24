@@ -1,4 +1,4 @@
-# ☕ Digibite Icons
+# ☕ Drippia Icons
 
 Beautiful & consistent icon toolkit for coffee and beverage applications.
 
@@ -15,13 +15,13 @@ Beautiful & consistent icon toolkit for coffee and beverage applications.
 ### React
 
 ```bash
-npm install @digibite/icons-react
+npm install @drippia/icons-react
 # or
-pnpm add @digibite/icons-react
+pnpm add @drippia/icons-react
 ```
 
 ```tsx
-import { Coffee, GrinderManual, PourOver } from '@digibite/icons-react';
+import { Coffee, GrinderManual, PourOver } from '@drippia/icons-react';
 
 function App() {
   return (
@@ -38,15 +38,15 @@ function App() {
 
 ```yaml
 dependencies:
-  digibite_icons: ^0.1.0
+  drippia_icons: ^0.1.0
 ```
 
 ```dart
-import 'package:digibite_icons/digibite_icons.dart';
+import 'package:drippia_icons/drippia_icons.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 SvgPicture.asset(
-  DigibiteIcons.coffee,
+  drippiaIcons.coffee,
   width: 24,
   height: 24,
   colorFilter: ColorFilter.mode(Colors.black, BlendMode.srcIn),
@@ -94,13 +94,13 @@ pnpm build:flutter
 ## 📁 Project Structure
 
 ```
-digibite-icons/
+drippia-icons/
 ├── icons/                  # Source SVG files
 ├── scripts/                # Build scripts
 ├── packages/
 │   ├── react/             # React package
 │   └── flutter/           # Flutter package
-└── digibite_icons_development_rules.md
+└── drippia_icons_development_rules.md
 ```
 
 ## 🤝 Contributing
@@ -117,4 +117,4 @@ Inspired by [Lucide Icons](https://lucide.dev) architecture.
 
 ---
 
-Made with ☕ by Digibite
+Made with ☕ by drippia

@@ -1,21 +1,21 @@
-# @digibite/icons-react
+# @drippia/icons-react
 
-React components for Digibite Icons.
+React components for drippia Icons.
 
 ## Installation
 
 ```bash
-npm install @digibite/icons-react
+npm install @drippia/icons-react
 # or
-pnpm add @digibite/icons-react
+pnpm add @drippia/icons-react
 # or
-yarn add @digibite/icons-react
+yarn add @drippia/icons-react
 ```
 
 ## Usage
 
 ```tsx
-import { Coffee, GrinderManual, PourOver } from '@digibite/icons-react';
+import { Coffee, GrinderManual, PourOver } from '@drippia/icons-react';
 
 function App() {
   return (
@@ -59,7 +59,7 @@ All icons accept the following props:
 This package includes TypeScript definitions. Each icon exports its own props interface:
 
 ```tsx
-import { Coffee, CoffeeProps } from '@digibite/icons-react';
+import { Coffee, CoffeeProps } from '@drippia/icons-react';
 
 const MyComponent = (props: CoffeeProps) => {
   return <Coffee {...props} />;

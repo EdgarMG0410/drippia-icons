@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drippia Icons - Beautiful Coffee & Beverage Icons</title>
+    <meta name="description" content="Beautiful & consistent icon toolkit for coffee and beverage applications">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 8h1a4 4 0 1 1 0 8h-1"/>
+                        <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
+                        <line x1="6" y1="1" x2="6" y2="4"/>
+                        <line x1="10" y1="1" x2="10" y2="4"/>
+                        <line x1="14" y1="1" x2="14" y2="4"/>
+                    </svg>
+                    <h1>Drippia Icons</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#icons">Icons</a>
+                    <a href="https://github.com/yourusername/drippia-icons" target="_blank">GitHub</a>
+                    <a href="#guide">Guide</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2 class="hero-title">Beautiful Coffee & Beverage Icons</h2>
+                <p class="hero-subtitle">31 carefully crafted icons for coffee and beverage applications</p>
+            </section>
+
+            <section class="controls">
+                <div class="search-box">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Search icons..." 
+                        class="search-input"
+                    >
+                </div>
+
+                <div class="customization">
+                    <div class="control-group">
+                        <label for="sizeSlider">Size: <span id="sizeValue">24</span>px</label>
+                        <input type="range" id="sizeSlider" min="16" max="64" value="24" class="slider">
+                    </div>
+                    <div class="control-group">
+                        <label for="strokeSlider">Stroke: <span id="strokeValue">2</span>px</label>
+                        <input type="range" id="strokeSlider" min="1" max="4" step="0.5" value="2" class="slider">
+                    </div>
+                    <div class="control-group">
+                        <label for="colorPicker">Color:</label>
+                        <input type="color" id="colorPicker" value="#3D2B1F" class="color-picker">
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalIcons">31</span>
+                    <span class="stat-label">Total Icons</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="visibleIcons">31</span>
+                    <span class="stat-label">Showing</span>
+                </div>
+            </section>
+
+            <section class="icon-grid" id="iconGrid">
+                <!-- Icons will be dynamically loaded here -->
+            </section>
+        </div>
+    </main>
+
+    <div class="modal" id="iconModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="modal-preview">
+                    <div id="modalIcon"></div>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <div class="modal-tabs">
+                        <button class="tab-btn active" data-tab="react">React</button>
+                        <button class="tab-btn" data-tab="flutter">Flutter</button>
+                        <button class="tab-btn" data-tab="svg">SVG</button>
+                    </div>
+                    <div class="code-block">
+                        <pre><code id="codeContent"></code></pre>
+                        <button class="copy-btn" id="copyBtn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Released under the MIT License. Made with ☕ by drippia</p>
+        </div>
+    </footer>
+
+    <script src="icons-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# 🧩 Digibite Icons — Development Rules
+# 🧩 Drippia Icons — Development Rules
 
 Este documento define las reglas para mantener consistencia, escalabilidad y calidad en el sistema de iconos tipo Lucide.
 
@@ -18,7 +18,7 @@ Construir un sistema de iconos multiplataforma con:
 # 📁 Estructura del proyecto
 
 ```
-digibite-icons/
+drippia-icons/
   icons/                  # Fuente única (SVG)
   scripts/                # Generadores
   packages/
@@ -131,7 +131,7 @@ Ejemplo:
 Ejemplo:
 
 ```dart
-SvgPicture.asset(DigibiteIcons.coffee);
+SvgPicture.asset(drippiaIcons.coffee);
 ```
 
 ---

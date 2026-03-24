@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 
-console.log('🚀 Building Digibite Icons...\n');
+console.log('🚀 Building drippia Icons...\n');
 
 try {
   console.log('📦 Building React package...');

@@ -3,7 +3,7 @@ const path = require('path');
 
 const ICONS_DIR = path.join(__dirname, '../icons');
 const FLUTTER_ASSETS_DIR = path.join(__dirname, '../packages/flutter/assets/icons');
-const FLUTTER_LIB_FILE = path.join(__dirname, '../packages/flutter/lib/digibite_icons.dart');
+const FLUTTER_LIB_FILE = path.join(__dirname, '../packages/flutter/lib/drippia_icons.dart');
 
 function toSnakeCase(str) {
   return str.replace(/-/g, '_');
@@ -27,25 +27,25 @@ function buildFlutterPackage() {
     
     const iconName = path.basename(file, '.svg');
     const constantName = toSnakeCase(iconName);
-    iconPaths.push(`  static const String ${constantName} = 'packages/digibite_icons/assets/icons/${file}';`);
+    iconPaths.push(`  static const String ${constantName} = 'packages/drippia_icons/assets/icons/${file}';`);
     
     console.log(`  ✓ ${file}`);
   });
   
-  const dartContent = `/// Digibite Icons - Beautiful & consistent icon toolkit
+  const dartContent = `/// drippia Icons - Beautiful & consistent icon toolkit
 ///
 /// Usage:
 /// \`\`\`dart
 /// import 'package:flutter_svg/flutter_svg.dart';
-/// import 'package:digibite_icons/digibite_icons.dart';
+/// import 'package:drippia_icons/drippia_icons.dart';
 ///
 /// SvgPicture.asset(
-///   DigibiteIcons.coffee,
+///   drippiaIcons.coffee,
 ///   width: 24,
 ///   height: 24,
 /// );
 /// \`\`\`
-class DigibiteIcons {
+class drippiaIcons {
 ${iconPaths.join('\n')}
 }
 `;

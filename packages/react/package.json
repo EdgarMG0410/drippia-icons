@@ -1,7 +1,7 @@
 {
-  "name": "@digibite/icons-react",
+  "name": "@drippia/icons-react",
   "version": "0.1.0",
-  "description": "React components for Digibite Icons",
+  "description": "React components for drippia Icons",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -24,10 +24,10 @@
     "react",
     "icons",
     "svg",
-    "digibite",
+    "drippia",
     "coffee"
   ],
-  "author": "Digibite",
+  "author": "drippia",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"

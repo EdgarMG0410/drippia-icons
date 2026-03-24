@@ -8,7 +8,7 @@ const dirsToClean = [
 
 const filesToClean = [
   path.join(__dirname, '../packages/react/src/index.ts'),
-  path.join(__dirname, '../packages/flutter/lib/digibite_icons.dart'),
+  path.join(__dirname, '../packages/flutter/lib/drippia_icons.dart'),
 ];
 
 console.log('🧹 Cleaning build artifacts...\n');

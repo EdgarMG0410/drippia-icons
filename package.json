@@ -1,5 +1,5 @@
 {
-  "name": "digibite-icons",
+  "name": "drippia-icons",
   "version": "0.1.0",
   "description": "Beautiful & consistent icon toolkit for coffee and beverage applications",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/digibite-icons.git"
+    "url": "https://github.com/yourusername/drippia-icons.git"
   },
   "keywords": [
     "icons",
@@ -22,9 +22,9 @@
     "react",
     "flutter",
     "coffee",
-    "digibite"
+    "drippia"
   ],
-  "author": "Digibite",
+  "author": "drippia",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",

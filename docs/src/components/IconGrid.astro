@@ -1,0 +1,22 @@
+---
+interface Icon {
+  name: string;
+  displayName: string;
+  svg: string;
+}
+
+interface Props {
+  icons: Icon[];
+}
+
+const { icons } = Astro.props;
+---
+
+<section class="icon-grid" id="iconGrid">
+  {icons.map((icon) => (
+    <div class="icon-card" data-name={icon.name} data-icon={JSON.stringify(icon)}>
+      <div class="icon-preview" set:html={icon.svg} />
+      <div class="icon-name">{icon.displayName}</div>
+    </div>
+  ))}
+</section>
