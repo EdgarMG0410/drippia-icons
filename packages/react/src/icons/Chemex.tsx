@@ -21,8 +21,14 @@ export const Chemex = React.forwardRef<SVGSVGElement, ChemexProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M8 5h12l-3 9H11Z"/>
-<path d="M11 14h6c0 0 4 5 4 9H7c0-4 4-9 4-9Z"/>
+      <!-- Chemex body: hourglass shape -->
+  <path d="M7 2h10"/>
+  <!-- top funnel -->
+  <path d="M8 2l2 6h4l2-6"/>
+  <!-- wooden collar / grip band -->
+  <line x1="8" y1="10" x2="16" y2="10"/>
+  <!-- bottom carafe narrows then widens -->
+  <path d="M10 10l-3 9a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l-3-9"/>
     </svg>
   )
 );

@@ -17,14 +17,17 @@ export const iconsData: Icon[] = [
   {
     name: 'aeropress',
     displayName: 'Aeropress',
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<rect x="8" y="3" width="8" height="14" rx="1"/>
-<line x1="12" y1="3" x2="12" y2="1"/>
-<line x1="9" y1="1" x2="15" y2="1"/>
-<rect x="9" y="8" width="6" height="2" rx="0.5"/>
-<rect x="9" y="17" width="6" height="2" rx="1"/>
-<line x1="12" y1="19" x2="12" y2="21"/>
-<path d="M9 21h6"/>
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 256" width="24" height="24" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<g>
+<line x1="28" y1="40" x2="100" y2="40"/>
+<line x1="36" y1="100" x2="90" y2="100"/>
+<line x1="28" y1="200" x2="100" y2="200"/>
+<line x1="36" y1="100" x2="36" y2="200"/>
+<line x1="92" y1="100" x2="92" y2="200"/>
+<line x1="80" y1="40" x2="80" y2="100"/>
+<line x1="50" y1="40" x2="50" y2="100"/>
+<line x1="43" y1="207" x2="85" y2="207"/>
+</g>
 </svg>`
   },
   {
@@ -400,8 +403,9 @@ export const iconsData: Icon[] = [
     name: 'v60',
     displayName: 'V60',
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M6 6h12l-4 14H10z"/>
-<line x1="6" y1="6" x2="18" y2="6"/>
+<line x1="8" y1="16" x2="16" y2="16"/>
+<path d="M5 6h14l-6 10h-2L5 6z"/>
+<path d="M19 6c2 0 2.5 1 2.5 2s-1 2-4 2"/>
 </svg>`
   },
   {

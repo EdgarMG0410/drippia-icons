@@ -1,12 +1,12 @@
 import React from 'react';
 
-export interface TimerProps extends React.SVGProps<SVGSVGElement> {
+export interface WaterDropProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
   color?: string;
   strokeWidth?: number | string;
 }
 
-export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
+export const WaterDrop = React.forwardRef<SVGSVGElement, WaterDropProps>(
   ({ size = 24, color = 'currentColor', strokeWidth = 2, ...props }, ref) => (
     <svg
       ref={ref}
@@ -21,13 +21,9 @@ export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <circle cx="12" cy="13" r="8"/>
-  <line x1="12" y1="9" x2="12" y2="13"/>
-  <line x1="12" y1="13" x2="15" y2="15"/>
-  <line x1="9" y1="2" x2="15" y2="2"/>
-  <line x1="12" y1="2" x2="12" y2="5"/>
+      <path d="M12 2L6 12a6 6 0 1 0 12 0L12 2z"/>
     </svg>
   )
 );
 
-Timer.displayName = 'Timer';
+WaterDrop.displayName = 'WaterDrop';

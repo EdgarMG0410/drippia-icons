@@ -21,9 +21,18 @@ export const MokaPot = React.forwardRef<SVGSVGElement, MokaPotProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M10 23h8l1-8H9Z"/>
-<path d="M9 15h10l-2-6a2 2 0 0 0-6 0Z"/>
-<path d="M12 9c0-2 4-2 4-4"/>
+      <!-- lower boiler chamber -->
+  <path d="M8 14c0 0-1-2-1-5a5 5 0 0 1 10 0c0 3-1 5-1 5H8z"/>
+  <!-- middle band / gasket ring -->
+  <line x1="7" y1="14" x2="17" y2="14"/>
+  <!-- upper collector chamber -->
+  <path d="M8 14h8l-1 5a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1l-1-5z"/>
+  <!-- spout -->
+  <path d="M16 16c1.5 0 3-1 3-3"/>
+  <!-- handle -->
+  <path d="M8 17c-1.5 0-2.5.5-2.5 1.5"/>
+  <!-- lid knob -->
+  <circle cx="12" cy="13" r="1"/>
     </svg>
   )
 );

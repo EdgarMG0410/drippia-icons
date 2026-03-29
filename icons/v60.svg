@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- V60 cone body -->
-  <path d="M6 4h12l-4 10H10L6 4z"/>
-  <!-- ribs inside cone -->
-  <line x1="10" y1="6" x2="9" y2="12"/>
-  <line x1="12" y1="5" x2="12" y2="13"/>
-  <line x1="14" y1="6" x2="15" y2="12"/>
-  <!-- drip spout -->
-  <line x1="12" y1="14" x2="12" y2="17"/>
-  <!-- base rim / stand ring -->
-  <path d="M9 17h6"/>
-  <!-- cup suggestion -->
-  <path d="M8 17h8v3H8z"/>
+  <!-- Base -->
+  <line x1="8" y1="16" x2="16" y2="16"/>
+  
+  <!-- Dripper outline -->
+  <path d="M5 6h14l-6 10h-2L5 6z"/>
+
+  <!-- Small handle -->
+  <path d="M19 6c2 0 2.5 1 2.5 2s-1 2-4 2"/>
 </svg>

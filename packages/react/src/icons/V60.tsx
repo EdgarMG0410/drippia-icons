@@ -21,8 +21,9 @@ export const V60 = React.forwardRef<SVGSVGElement, V60Props>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M5 6h18l-6 14H11Z"/>
-<line x1="4" y1="6" x2="24" y2="6"/>
+      <line x1="8" y1="16" x2="16" y2="16"/>
+      <path d="M5 6h14l-6 10h-2L5 6z"/>
+      <path d="M19 6c2 0 2.5 1 2.5 2s-1 2-4 2"/>
     </svg>
   )
 );

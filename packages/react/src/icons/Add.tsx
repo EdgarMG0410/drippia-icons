@@ -21,9 +21,9 @@ export const Add = React.forwardRef<SVGSVGElement, AddProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <circle cx="14" cy="14" r="10"/>
-<line x1="14" y1="9" x2="14" y2="19"/>
-<line x1="9" y1="14" x2="19" y2="14"/>
+      <circle cx="12" cy="12" r="10"/>
+<line x1="12" y1="8" x2="12" y2="16"/>
+<line x1="8" y1="12" x2="16" y2="12"/>
     </svg>
   )
 );

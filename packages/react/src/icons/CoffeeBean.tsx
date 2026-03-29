@@ -1,12 +1,12 @@
 import React from 'react';
 
-export interface TimerProps extends React.SVGProps<SVGSVGElement> {
+export interface CoffeeBeanProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
   color?: string;
   strokeWidth?: number | string;
 }
 
-export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
+export const CoffeeBean = React.forwardRef<SVGSVGElement, CoffeeBeanProps>(
   ({ size = 24, color = 'currentColor', strokeWidth = 2, ...props }, ref) => (
     <svg
       ref={ref}
@@ -21,13 +21,12 @@ export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <circle cx="12" cy="13" r="8"/>
-  <line x1="12" y1="9" x2="12" y2="13"/>
-  <line x1="12" y1="13" x2="15" y2="15"/>
-  <line x1="9" y1="2" x2="15" y2="2"/>
-  <line x1="12" y1="2" x2="12" y2="5"/>
+      <!-- bean silhouette: rounded ellipse rotated -->
+  <ellipse cx="12" cy="12" rx="5" ry="8" transform="rotate(-30 12 12)"/>
+  <!-- center crease line -->
+  <path d="M9.5 6.5c1 2 1 5 0 7" transform="rotate(-30 12 12)"/>
     </svg>
   )
 );
 
-Timer.displayName = 'Timer';
+CoffeeBean.displayName = 'CoffeeBean';

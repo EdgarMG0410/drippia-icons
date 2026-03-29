@@ -1,12 +1,12 @@
 import React from 'react';
 
-export interface TimerProps extends React.SVGProps<SVGSVGElement> {
+export interface TemperatureProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
   color?: string;
   strokeWidth?: number | string;
 }
 
-export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
+export const Temperature = React.forwardRef<SVGSVGElement, TemperatureProps>(
   ({ size = 24, color = 'currentColor', strokeWidth = 2, ...props }, ref) => (
     <svg
       ref={ref}
@@ -21,13 +21,11 @@ export const Timer = React.forwardRef<SVGSVGElement, TimerProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <circle cx="12" cy="13" r="8"/>
-  <line x1="12" y1="9" x2="12" y2="13"/>
-  <line x1="12" y1="13" x2="15" y2="15"/>
-  <line x1="9" y1="2" x2="15" y2="2"/>
-  <line x1="12" y1="2" x2="12" y2="5"/>
+      <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+  <line x1="11" y1="8" x2="13" y2="8"/>
+  <line x1="11" y1="11" x2="13" y2="11"/>
     </svg>
   )
 );
 
-Timer.displayName = 'Timer';
+Temperature.displayName = 'Temperature';

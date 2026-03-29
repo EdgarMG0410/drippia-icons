@@ -21,8 +21,8 @@ export const Bean = React.forwardRef<SVGSVGElement, BeanProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <ellipse cx="14" cy="14" rx="7" ry="10" transform="rotate(-20 14 14)"/>
-<path d="M10 8Q14 14 18 20" transform="rotate(-20 14 14)"/>
+      <ellipse cx="12" cy="12" rx="6" ry="8.5" transform="rotate(-20 12 12)"/>
+<path d="M8.5 7Q12 12 15.5 17" transform="rotate(-20 12 12)"/>
     </svg>
   )
 );
