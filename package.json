@@ -11,7 +11,7 @@
     "build:react": "node scripts/buildReact.js",
     "build:flutter": "node scripts/buildFlutter.js",
     "clean": "node scripts/clean.js",
-    "deploy": "cd docs && npm run build && npx wrangler pages deploy dist --project-name=drippia-icons --commit-dirty=true"
+    "deploy": "cd docs && pnpm run build && npx wrangler pages deploy dist --project-name=drippia-icons --commit-dirty=true"
   },
   "repository": {
     "type": "git",
