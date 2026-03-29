@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name=drippia-icons --commit-dirty=true"
   },
   "dependencies": {
     "astro": "^4.16.19"

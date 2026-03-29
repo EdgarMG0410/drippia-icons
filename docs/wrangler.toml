@@ -8,3 +8,6 @@ name = "drippia-icons"
 
 [env.preview]
 name = "drippia-icons-preview"
+
+# Pages configuration
+pages_build_output_dir = "dist"
