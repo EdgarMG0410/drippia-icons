@@ -1,7 +1,5 @@
-import { defineConfig } from 'astro/config';
-
-export default defineConfig({
+export default {
   site: 'https://drippia-icons.dev',
   base: '/',
   output: 'static',
-});
+};
